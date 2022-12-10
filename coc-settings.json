@@ -1,0 +1,16 @@
+{
+  "javascript.suggestionActions.enabled": false,
+  "coc.preferences.hoverTarget": "preview",
+  "signature.enable": false,
+  "suggest.echodocSupport": true,
+  "suggest.enablePreview": false,
+  "suggest.floatEnable": false,
+  "suggest.triggerCompletionWait": 200,
+  "suggest.maxCompleteItemCount": 16,
+  "typescript.preferences.quoteStyle": "double",
+  "javascript.preferences.quoteStyle": "double",
+  "typescript.suggest.completeFunctionCalls": false,
+  "javascript.suggest.completeFunctionCalls": false,
+  "typescript.preferences.useAliasesForRenames": false,
+  "languageserver": {}
+}
