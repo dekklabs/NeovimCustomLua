@@ -71,7 +71,29 @@ return require('packer').startup(function(use)
     tag = 'nightly' -- optional, updated every week. (see issue #1193)
   }
 
-  use 'vim-airline/vim-airline'
-  use 'vim-airline/vim-airline-themes'
+  --use 'vim-airline/vim-airline'
+  --use 'vim-airline/vim-airline-themes'
+  use {
+    'nvim-lualine/lualine.nvim',
+    requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+  }
+
+  -- Autocomplete cmd
+  use {
+    'hrsh7th/nvim-cmp',
+    requires = { 'hrsh7th/cmp-nvim-lsp', 'L3MON4D3/LuaSnip', 'saadparwaiz1/cmp_luasnip' },
+  }
+
+  -- Identation
+  use 'lukas-reineke/indent-blankline.nvim' -- Add indentation guides even on blank lines
+
+  use 'tpope/vim-sleuth'
+
+  use { 'alvarosevilla95/luatab.nvim', requires='kyazdani42/nvim-web-devicons' }
+
+  use 'mhinz/vim-startify'
+
+  -- Dashboard
+  use 'glepnir/dashboard-nvim'
 
 end)

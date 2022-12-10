@@ -14,7 +14,8 @@ g.vimairline = {
   }
 }
 
-g["vimairline"] = {
+--g["vimairline"] = {
+g["Airline"] = {
   colorscheme = 'wombat',
   active = {
     left = { { 'mode', 'paste' }, { 'gitbranch', 'readonly', 'filename', 'modified' } },
