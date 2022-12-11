@@ -15,6 +15,12 @@ db.default_banner = {
 db.custom_center = {
   {
     icon = ' ',
+    desc = '  Open NerdTree                            ',
+    action = "NERDTree",
+    shortcut = 'Leader n f'
+  },
+  {
+    icon = ' ',
     desc = '  New File                            ',
     action = "DashboardNewFile",
     shortcut = 'Leader n f'

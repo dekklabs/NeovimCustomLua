@@ -26,6 +26,7 @@ o.number            = true
 wo.relativenumber   = true
 o.relativenumber    = true
 o.list              = true
+o.showtabline       = 2
 
 -- Theme
 cmd[[colorscheme gruvbox]]

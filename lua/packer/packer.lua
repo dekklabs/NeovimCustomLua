@@ -96,4 +96,6 @@ return require('packer').startup(function(use)
   -- Dashboard
   use 'glepnir/dashboard-nvim'
 
+  use 'mattn/emmet-vim'
+
 end)
