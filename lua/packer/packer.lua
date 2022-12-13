@@ -91,11 +91,13 @@ return require('packer').startup(function(use)
 
   use { 'alvarosevilla95/luatab.nvim', requires='kyazdani42/nvim-web-devicons' }
 
+  -- startify menu screen
   use 'mhinz/vim-startify'
 
   -- Dashboard
-  use 'glepnir/dashboard-nvim'
+  --use 'glepnir/dashboard-nvim'
 
+  -- Emment
   use 'mattn/emmet-vim'
 
 end)

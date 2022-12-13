@@ -12,6 +12,8 @@ keymap('n', '<c-n>', '<Esc>:NERDTree<CR>', {})
 keymap('n', '<c-b>', '<Esc>:NERDTreeClose<CR>', {})
 keymap('n', '<c-s>', '<Esc>:NERDTreeFind<CR>', {})
 
+keymap('n', '<c-t>', '<Esc>:tabnew<CR>', {})
+
 -- Navigating
 keymap('n', '<c-h>', '<Esc>:tabprevious<CR>', {})
 keymap('n', '<c-l>', '<Esc>:tabnext<CR>', {})
@@ -35,3 +37,5 @@ function map(mode, lhs, rhs, opts)
 end
 
 map("n", "<C-r>", "``")
+
+vim.api.nvim_set_keymap("n", "gd", "<cmd>lua vim.lsp.buf.definition()<CR>", { noremap = true, silent = true })

@@ -3,6 +3,7 @@ local o = vim.o
 local wo = vim.wo
 local cmd = vim.cmd
 local g = vim.g
+local opt = vim.opt
 
 --
 -- Configuration
@@ -36,6 +37,8 @@ g["floaterm_keymap_new"]    = '<F7>'
 g["floaterm_keymap_prev"]   = '<F8>'
 g["floaterm_keymap_next"]   = '<F9>'
 g["floaterm_keymap_toggle"] = '<F12>'
+
+opt.listchars = { eol = "↴", tab = "▸ ", trail = "·", extends = "»", precedes = "«" }
 
 -- set
 wo.signcolumn = "yes"
